@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CondimentDecorator.h" />
     <ClInclude Include="DarkRoast.h" />
     <ClInclude Include="Decaf.h" />
     <ClInclude Include="Espresso.h" />
