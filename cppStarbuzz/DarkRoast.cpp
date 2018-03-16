@@ -1,9 +1,9 @@
 #include "stdafx.h"
 #include <iostream>
 
-namespace starbuzz_beverage{
+namespace starbuzz_beverage {
 
-	class Beverage {
+	class DarkRoast {
 		char description[31] = "Unknown Beverage";
 	public:
 		virtual char* getDescription(void);
