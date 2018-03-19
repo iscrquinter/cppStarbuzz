@@ -11,12 +11,8 @@ namespace starbuzz_beverage{
 	protected:
 		string description = "Unknown Beverage";
 	public:
-		virtual string getDescription(void);
+		string getDescription(void) { return description; };
 		virtual double cost(void) = 0;
 	};
 
-	string Beverage::getDescription()
-	{
-		return description;
-	}
 }

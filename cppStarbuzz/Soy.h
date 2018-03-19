@@ -12,7 +12,7 @@ namespace starbuzz_decorator {
 		Beverage* beverage;
 	public:
 		Soy(Beverage *);
-		string getDescription(void);
+		string getDescription(void) override;
 		double cost(void)
 	};
 

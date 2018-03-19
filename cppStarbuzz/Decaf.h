@@ -10,14 +10,8 @@ namespace starbuzz_beverage {
 
 	class Decaf : public Beverage {
 	public:
-		string getDescription(void);
 		double cost(void);
 	};
-
-	string Decaf::getDescription()
-	{
-		return "Decaf Coffee";
-	}
 
 	double Decaf::cost()
 	{

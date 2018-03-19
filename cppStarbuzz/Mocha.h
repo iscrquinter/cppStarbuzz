@@ -12,8 +12,8 @@ namespace starbuzz_decorator {
 		Beverage* beverage;
 	public:
 		Mocha(Beverage *);
-		string getDescription(void);
-		double cost(void)
+		string getDescription(void) override;
+		double cost(void);
 	};
 
 	Mocha::Mocha(Beverage *beverage)

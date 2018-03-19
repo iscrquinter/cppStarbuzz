@@ -12,8 +12,8 @@ namespace starbuzz_decorator {
 		Beverage* beverage;
 	public:
 		Whip(Beverage *);
-		string getDescription(void);
-		double cost(void)
+		string getDescription(void) override;
+		double cost(void);
 	};
 
 	Whip::Whip(Beverage *beverage)

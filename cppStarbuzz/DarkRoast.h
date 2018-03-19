@@ -9,15 +9,14 @@ using namespace std;
 namespace starbuzz_beverage {
 	class DarkRoast : public Beverage {
 	public:
-		string getDescription(void);
+		DarkRoast(void);
 		double cost(void);
 	};
 
-	string DarkRoast::getDescription()
+	DarkRoast::DarkRoast()
 	{
-		return "Dark Roast Coffee";
+		description = "DarkRoast";
 	}
-
 	double DarkRoast::cost()
 	{
 		return 0.99;

@@ -12,7 +12,7 @@ namespace starbuzz_decorator {
 		Beverage* beverage;
 	public:
 		 Milk(Beverage *);
-		 string getDescription(void);
+		 string getDescription(void) override;
 		 double cost(void)
 	};
 
