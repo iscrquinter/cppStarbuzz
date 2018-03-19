@@ -2,17 +2,20 @@
 
 #include "stdafx.h"
 #include "Beverage.h"
+#include <iostream>
+
+using namespace std;
 
 namespace starbuzz_beverage {
 	class DarkRoast : public Beverage {
 	public:
-		char* getDescription(void);
+		string getDescription(void);
 		double cost(void);
 	};
 
-	char* DarkRoast::getDescription()
+	string DarkRoast::getDescription()
 	{
-		return (char *) "Dark Roast Coffee";
+		return "Dark Roast Coffee";
 	}
 
 	double DarkRoast::cost()

@@ -1,15 +1,18 @@
 #include "stdafx.h"
+#include <iostream>
+
+using namespace std;
 
 namespace starbuzz_beverage{
 
 	class Beverage {
-		char description[31] = "Unknown Beverage";
+		string description = "Unknown Beverage";
 	public:
-		virtual char* getDescription(void);
+		virtual string getDescription(void) = 0;
 		virtual double cost(void) = 0;
 	};
 
-	char* Beverage::getDescription()
+	string Beverage::getDescription()
 	{
 		return description;
 	}
