@@ -9,13 +9,13 @@ using namespace std;
 namespace starbuzz_beverage {
 	class Espresso : public Beverage {
 	public:
-		string getDescription(void);
+		Espresso(void);
 		double cost(void);
 	};
 
-	string Espresso::getDescription()
+	Espresso::Espresso(void)
 	{
-		return "Espresso";
+		description = "Espresso";
 	}
 
 	double Espresso::cost()
