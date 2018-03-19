@@ -13,7 +13,7 @@ namespace starbuzz_decorator {
 	public:
 		Soy(Beverage *);
 		string getDescription(void) override;
-		double cost(void)
+		double cost(void);
 	};
 
 	Soy::Soy(Beverage *beverage)

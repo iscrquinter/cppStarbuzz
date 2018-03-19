@@ -15,7 +15,7 @@ namespace starbuzz_beverage {
 
 	DarkRoast::DarkRoast()
 	{
-		description = "DarkRoast";
+		description = "DarkRoast coffee";
 	}
 	double DarkRoast::cost()
 	{

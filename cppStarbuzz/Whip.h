@@ -23,7 +23,7 @@ namespace starbuzz_decorator {
 
 	string Whip::getDescription(void)
 	{
-		return beverage->getDescription() + ", Milk";
+		return beverage->getDescription() + ", Whip";
 	}
 
 	double Whip::cost(void)

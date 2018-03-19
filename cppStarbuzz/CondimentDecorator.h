@@ -11,6 +11,5 @@ namespace starbuzz_decorator {
 	{
 	public:
 		virtual string getDescription(void) = 0;
-//		virtual double cost(void) = 0;
 	};
 }
